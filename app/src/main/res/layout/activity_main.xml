@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/display"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@color/light_grey"
@@ -37,7 +38,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="+/-" />
+            android:text="@string/plus_minus" />
 
         <Button
             android:id="@+id/buttonPercent"
@@ -45,14 +46,14 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="%" />
+            android:text="@string/modulus" />
 
         <Button
             android:id="@+id/buttonDivide"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="÷" />
+            android:text="@string/divide" />
 
     </LinearLayout>
 
@@ -69,7 +70,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="7" />
+            android:text="@string/number_seven" />
 
         <Button
             android:id="@+id/buttonEight"
@@ -77,7 +78,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="8" />
+            android:text="@string/number_eight" />
 
         <Button
             android:id="@+id/buttonNine"
@@ -85,14 +86,14 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="9" />
+            android:text="@string/number_nine" />
 
         <Button
             android:id="@+id/buttonMultiply"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="×" />
+            android:text="@string/multiply" />
 
     </LinearLayout>
 
@@ -109,7 +110,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="4" />
+            android:text="@string/number_four" />
 
         <Button
             android:id="@+id/buttonFive"
@@ -117,7 +118,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="5" />
+            android:text="@string/number_five" />
 
         <Button
             android:id="@+id/buttonSix"
@@ -125,7 +126,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="6" />
+            android:text="@string/number_six" />
 
 
         <Button
@@ -133,7 +134,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="−" />
+            android:text="@string/minus" />
 
     </LinearLayout>
 
@@ -150,7 +151,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="1" />
+            android:text="@string/number_one" />
 
         <Button
             android:id="@+id/buttonTwo"
@@ -158,7 +159,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="2" />
+            android:text="@string/number_two" />
 
         <Button
             android:id="@+id/buttonThree"
@@ -166,14 +167,14 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="3" />
+            android:text="@string/number_three" />
 
         <Button
             android:id="@+id/buttonPlus"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="+" />
+            android:text="@string/plus" />
 
     </LinearLayout>
 
@@ -191,23 +192,23 @@
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="2"
-            android:text="0" />
+            android:text="@string/number_zero" />
 
 
         <Button
-            android:id="@+id/buttonCLR"
+            android:id="@+id/buttonDecimal"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:text="." />
+            android:text="@string/decimal" />
 
         <Button
             android:id="@+id/buttonEqual"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="=" />
+            android:text="@string/equals" />
 
     </LinearLayout>
 </LinearLayout>
